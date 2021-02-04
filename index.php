@@ -2,7 +2,7 @@
 /*
 The main page content
 */
-include("header.php"); // Including the header file 
+include("<page-content1.php"); // Including the header file 
 ?>
 
 <div class="the-container">
