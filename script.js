@@ -10,9 +10,11 @@ hamburgerMenu.addEventListener("click", () =>{
 //JQuery
 $(document).ready(function () {
     $('#tweet-form').on('submit', function(e) {
-        e.preventDefault();
         if($('#content').val() == '') {
+            e.preventDefault();
             alert("You can't submit an empty tweet! .. A content is required")
+        } else {
+            alert('You have tweeted! Good 4 u');
         }
     });
 });
