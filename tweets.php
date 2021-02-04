@@ -20,7 +20,7 @@ if ($resultCheck > 0) {
                                     <img class="rounded-circle" width="45" src="https://picsum.photos/50/50" alt="">
                                         </div>
                                     <div class="ml-2">
-                                        <div class="h5 m-0">'.$row['user_name'].'</div>
+                                        <div class="h5 m-0">' . $row['user_name'] . '</div>
                                         </div>
                                     </div>
                                 </div>
@@ -32,7 +32,7 @@ if ($resultCheck > 0) {
                         </p>
                     </div>
                     <div class="card-footer">
-                        <form method="POST">
+                        <form method="POST" action="retweet.php">
                             <button name="retweet" class="retweet" type="submit">Retweet</button>
                         </form>
                     </div>
@@ -44,10 +44,3 @@ if ($resultCheck > 0) {
     echo '<h1> Nothing were found </h1>';
 }
 include_once('page-content2.php');
-
-
-// The Retweet function!
-$retweet= $_POST['retweet'];
-if(isset($retweet)) {
-
-}
