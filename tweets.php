@@ -1,5 +1,5 @@
 <?php
-include_once('page-content1.php');
+include_once('includes/page-content1.php');
 
 // This query to get data from DB. it joins the users and the tweets tables together
 $sql = "SELECT *
@@ -43,4 +43,4 @@ if ($resultCheck > 0) {
 } else {
     echo '<h1> Nothing were found </h1>';
 }
-include_once('page-content2.php');
+include_once('includes/page-content2.php');

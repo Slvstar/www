@@ -2,7 +2,7 @@
 /*
 The main page content
 */
-include("<page-content1.php"); // Including the header file 
+include("includes/page-content1.php"); // Including the header file 
 ?>
 
 <!-- The tweet form Goes here -->
@@ -20,5 +20,5 @@ include("<page-content1.php"); // Including the header file
 <!-- The tweet form Ends here-->
 
 <?php
-include("<page-content2.php"); // Including the Footer file 
+include("includes/page-content2.php"); // Including the Footer file 
 ?>
