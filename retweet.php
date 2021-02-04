@@ -1,6 +1,6 @@
 <?php
 // Including The DB Connetction file
-include('connect.php');
+include('includes/connect.php');
 
 
 // The Retweet function! 

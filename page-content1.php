@@ -1,7 +1,7 @@
 <?php
 /*
 The main page content
-*/ include("connect.php"); // Include the DB connection
+*/ include("includes/connect.php"); // Include the DB connection
 ?>
 
 <!DOCTYPE html>

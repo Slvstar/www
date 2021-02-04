@@ -1,5 +1,5 @@
 <?php
-include('connect.php');
+include('includes/connect.php');
 
 $userid = '1';
 $tweet = $_POST['content'];
