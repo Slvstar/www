@@ -334,3 +334,11 @@ ul li.active a {
 {
 padding: 4rem 10rem;
 }
+
+
+.retweet{
+    border: none;
+    background-color: #05386b;
+    color: #edf5e1;
+    padding: .4rem 5rem;
+}
