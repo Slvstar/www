@@ -8,3 +8,11 @@ hamburgerMenu.addEventListener("click", () =>{
 })
 
 //JQuery
+$(document).ready(function () {
+    $('#tweet-form').on('submit', function(e) {
+        e.preventDefault();
+        if($('#content').val() == '') {
+            alert("You can't submit an empty tweet! .. A content is required")
+        }
+    });
+});

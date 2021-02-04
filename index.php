@@ -2,7 +2,7 @@
 /*
 The main page content
 */
-include("page-content-1.php");
+include("page-content1.php");
 ?>
 <!-- The tweet form Goes here -->
 <form id="tweet-form" method="POST" action="tweet.php">
@@ -18,5 +18,5 @@ include("page-content-1.php");
 </form>
 <!-- The tweet form Ends here-->
 <?php
-include("page-content-1.php");
+include("page-content1.php");
 ?>
